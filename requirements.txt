@@ -9,3 +9,5 @@ scipy==1.8.0
 streamlit==1.9.2
 ffmpeg
 protobuf==3.19.0
+libsndfile1 
+libsndfile1-dev
