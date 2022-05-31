@@ -220,7 +220,7 @@ if rad_file == "The Weeknd - Blinding Lights":
 
         data = []
         columns_name = []
-        ca = [file.name]
+        ca = ['The Weeknd - Blinding Lights.wav']
 
         for i , chorus in enumerate(ca):
             data , columns_name = extract_features(f"The Weeknd - Blinding Lights.wav", chorus)
