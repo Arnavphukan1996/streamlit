@@ -219,7 +219,7 @@ if col2.button("PREDICT"):
     ca = [file.name]
 
     for i , chorus in enumerate(ca):
-        data , columns_name = extract_features(f"C:/Users/HP/Desktop/audio/{chorus}", chorus)
+        data , columns_name = extract_features(f"C:/Users/HP/Desktop/audio/The Weeknd - Blinding Lights.wav", chorus)
         c = final(data,columns_name)
         x2 = c[f]
 
