@@ -223,7 +223,7 @@ if rad_file == "The Weeknd - Blinding Lights":
         ca = ['The Weeknd - Blinding Lights.wav']
 
         for i , chorus in enumerate(ca):
-            data , columns_name = extract_features(f"The Weeknd - Blinding Lights.wav", chorus)
+            data , columns_name = extract_features("The Weeknd - Blinding Lights.wav", chorus)
             c = final(data,columns_name)
             x2 = c[f]
 
@@ -248,7 +248,7 @@ elif rad_file == "Beyoncé - XO":
         ca = [file.name]
 
         for i , chorus in enumerate(ca):
-            data , columns_name = extract_features(f"Beyoncé - XO.wav", chorus)
+            data , columns_name = extract_features("Beyoncé - XO.wav", chorus)
             c = final(data,columns_name)
             x2 = c[f]
 
