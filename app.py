@@ -224,8 +224,7 @@ if col2.button("PREDICT"):
 
     data = []
     columns_name = []
-    ca1 = file.name
-    ca ='C:/Users/HP/Desktop/Music/' + ca1
+    ca = file.name
     
     t=ca.replace(".wav","")
     
